@@ -1,0 +1,7 @@
+﻿# Runtime dependencies for tools/knowledge_updater.py
+# Install with: pip install -r tools/requirements.txt
+
+crawl4ai>=0.3.0; python_version >= "3.9"
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+lxml>=4.9.0; platform_system != "Windows" or python_version >= "3.9"
